@@ -1,1 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGRINHO 2026 | Agro Forte, Futuro Sustentável</title>
+    <meta name="description" content="Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary: #2E8B57;
+            --secondary: #FFD700;
+            --dark: #1e3a2f;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--dark), var(--primary));
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 5%;
+        }
+        
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        
+        .nav-menu a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        .nav-menu a:hover {
+            color: var(--secondary);
+        }
+        
+        /* Hero */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://source.unsplash.com/1600x900/?farm,drone') center/cover no-repeat;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .hero p {
+            font-size: 1.4rem;
+            margin-bottom: 2rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 14px 32px;
+            background: var(--secondary);
+            color: #333;
+            font-weight: 600;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        
+        .btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        
+        section {
+            padding: 80px 5%;
+        }
+        
+        h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: var(--primary);
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .card i {
+            font-size: 3rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+        
+        footer {
+            background: #1e3a2f;
+            color: white;
+            text-align: center;
+            padding: 3rem 5%;
+        }
+        
+        @media (max-width: 768px) {
+            .nav-menu { gap: 1rem; font-size: 0.95rem; }
+            .hero h1 { font-size: 2.8rem; }
+        }
+    </style>
+</head>
+<body>
 
+    <!-- Cabeçalho -->
+    <header>
+        <nav>
+            <div class="logo">
+                🌱 <span>AGRINHO 2026</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#producao">Produção</a></li>
+                <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                <li><a href="#desafios">Desafios</a></li>
+                <li><a href="#solucoes">Soluções</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Banner -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Agro Forte,<br>Futuro Sustentável</h1>
+            <p>Equilíbrio entre produção econômica e preservação ambiental</p>
+            <a href="#producao" class="btn">Conheça o Projeto</a>
+        </div>
+    </section>
+
+    <!-- Seção 1: Produção Agrícola -->
+    <section id="producao">
+        <h2>1. Importância da Produção Agrícola</h2>
+        <div class="grid">
+            <div class="card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Contribuição Econômica</h3>
+                <p>O agronegócio é responsável por cerca de 24% do PIB brasileiro e gera milhões de empregos diretos e indiretos.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-globe"></i>
+                <h3>Exportações</h3>
+                <p>Brasil é um dos maiores exportadores mundiais de soja, café, carne, açúcar e outros produtos agrícolas.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-users"></i>
+                <h3>Sustento Rural</h3>
+                <p>Alimenta comunidades rurais e garante segurança alimentar para a população brasileira e mundial.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 2: Sustentabilidade -->
+    <section id="sustentabilidade" style="background: #f9f9f9;">
+        <h2>2. Sustentabilidade no Campo</h2>
+        <div class="grid">
+            <div class="card">
+                <i class="fas fa-seedling"></i>
+                <h3>Práticas Ecológicas</h3>
+                <p>Rotação de culturas, plantio direto e integração lavoura-pecuária-floresta.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-tint"></i>
+                <h3>Conservação de Recursos</h3>
+                <p>Preservação do solo, manejo sustentável da água e proteção de nascentes.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-solar-panel"></i>
+                <h3>Energias Renováveis</h3>
+                <p>Uso crescente de energia solar, biogás e outras fontes limpas na propriedade rural.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 3: Desafios Ambientais -->
+    <section id="desafios">
+        <h2>3. Desafios Ambientais</h2>
+        <div class="grid">
+            <div class="card">
+                <i class="fas fa-tree"></i>
+                <h3>Desmatamento</h3>
+                <p>Perda de biodiversidade e emissão de gases de efeito estufa.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-water"></i>
+                <h3>Uso Excessivo de Água</h3>
+                <p>Irrigação ineficiente e risco de escassez hídrica.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-smog"></i>
+                <h3>Emissões de Carbono</h3>
+                <p>Impacto nas mudanças climáticas globais.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 4: Soluções e Futuro -->
+    <section id="solucoes" style="background: #f9f9f9;">
+        <h2>4. Soluções e o Futuro do Agro</h2>
+        <div class="grid">
+            <div class="card">
+                <i class="fas fa-drone"></i>
+                <h3>Tecnologias Sustentáveis</h3>
+                <p>Agricultura de precisão, drones, sensores e irrigação inteligente.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-leaf"></i>
+                <h3>Agricultura Regenerativa</h3>
+                <p>Recuperação do solo e aumento da biodiversidade.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Educação e Conscientização</h3>
+                <p>Formação de produtores e consumidores mais conscientes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <h2>5. Vamos Construir um Futuro Sustentável?</h2>
+        <div style="max-width: 700px; margin: 0 auto; background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 5px 20px rgba(0,0,0,0.1);">
+            <form>
+                <input type="text" placeholder="Seu nome" style="width:100%; padding:12px; margin:10px 0; border:1px solid #ddd; border-radius:8px;">
+                <input type="email" placeholder="Seu e-mail" style="width:100%; padding:12px; margin:10px 0; border:1px solid #ddd; border-radius:8px;">
+                <textarea placeholder="Sua mensagem ou sugestão" rows="5" style="width:100%; padding:12px; margin:10px 0; border:1px solid #ddd; border-radius:8px;"></textarea>
+                <button type="submit" class="btn" style="width:100%; background:var(--primary); color:white;">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p><strong>AGRINHO 2026</strong> — Agro Forte, Futuro Sustentável</p>
+        <p>Desenvolvido por [Sua Equipe / Sua Escola]</p>
+        <p style="margin-top: 1rem; opacity: 0.8;">
+            🌱 Juntos podemos produzir mais respeitando o planeta
+        </p>
+    </footer>
+
+    <script>
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
